@@ -1,0 +1,395 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* home screen  */
+.home-container{
+    width: 1920px;
+    height: 1200px;
+    background-image: url('./images/bg1.png');
+}
+.hey-temi{
+    width: 288px;
+    height: 71px;
+    position: relative;
+    top: 121px;
+    left: 1410px;
+    font-family: Poppins;
+    font-size: 32px;
+    color: #4F4F4F;
+    font-weight: 500;
+    line-height: 27.84px;
+    text-align: right;
+}
+.hey-temi b{
+    font-size: 38px;
+    line-height: 33.06px;
+    font-weight: 700;
+}
+.hey-temi span{
+    font-size: 32px;
+    line-height: 33.06px;
+}
+.home-container img{
+    width: 252px;
+    height: 110px;
+    position: absolute;
+    top: 92px;
+    left: 1570px;
+}
+.home-container .choose{
+    width: 1115px;
+    height: 143px;
+    position: absolute;
+    top: 360px;
+    left: 402px;
+    font-size: 64px;
+    font-family: Poppins;
+    color: #4F4F4F;
+    font-weight: 500;
+    line-height: 62.72px;
+    letter-spacing: 1%;
+    text-align: center;
+}
+.home-container .digital-assistance, .self-service{
+    width: 592px;
+    height: 191px;
+    position: absolute;
+    top: 728px;
+    left: 347px;
+    border-radius: 20px;
+    background-color: #FFB600;
+    box-shadow: -8px 10px 7px #c7c7c7;
+}
+.digital-assistance:hover, .self-service:hover{
+    background-color: #FF9900;
+    cursor: pointer;
+}
+.home-container .digital-assistance p, .self-service p{
+    width: 646px;
+    height: 69px;
+    position: fixed;
+    top: 819px;
+    left: 320px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60.48px;
+    text-align: center;
+}
+.home-container .digital-assistance img, .self-service img{
+    width: 181px;
+    height: 181px;
+    position: fixed;
+    top: 615px;
+    left: 553px;
+}
+.self-service{
+    left: 1005px;
+}
+.self-service p{
+    width: 329px;
+    height: 65px;
+    left: 1137px;
+}
+.self-service img{
+    left: 1210px;
+}
+.hide{
+    display: none;
+}
+/* home screen  */
+/* digital assistance  */
+.dig-assist-container{
+    width: 1920px;
+    height: 1200px;
+    background-image: url('./images/bg2.png');
+}
+.dig-assist-container .home, .self-service-container .home, .form-container .home{
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    top: 92px;
+    left: 92px;
+    cursor: pointer;
+}
+.dig-assist-container .help, .self-service-container .help, .form-container .help{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 92px;
+    left: 1710px;
+    cursor: pointer;
+}
+.dig-assist-container .dig-assist-heading, .self-service-heading{
+    width: 642px;
+    height: 81px;
+    position: absolute;
+    top: 214px;
+    left: 639px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 80.64px;
+    text-align: center;
+}
+.dig-assist-container .registrationMobile, .kyc, .card-issuance, .cheque-book-issuance, .block-unblock-cards, .stop-check-request,
+.account-opening-kiosk, .customer-lounge-area, .tab-kiosk, .staff-area, .video-kyc, .internet-banking-kiosk{
+    width: 363px;
+    height: 274px;
+    position: absolute;
+    top: 387px;
+    left: 316px;
+    background-image: linear-gradient(#FFB600, #FF9900 100%);
+    border-radius: 41px;
+    box-shadow: -8px 10px 7px #39373736;
+}
+.registrationMobile:hover, .kyc:hover, .card-issuance:hover, .cheque-book-issuance:hover, .block-unblock-cards:hover, .stop-check-request:hover,
+.account-opening-kiosk:hover, .customer-lounge-area:hover, .tab-kiosk:hover, .staff-area:hover, .video-kyc:hover, .internet-banking-kiosk:hover{
+    background-image: linear-gradient(#e38a03, #c87a04);
+    cursor: pointer;
+}
+.registrationMobile p, .kyc p, .card-issuance p, .cheque-book-issuance p, .block-unblock-cards p, .stop-check-request p,
+.account-opening-kiosk p, .customer-lounge-area p, .tab-kiosk p, .staff-area p, .video-kyc p, .internet-banking-kiosk p{
+    width: 342px;
+    height: 125px;
+    position: fixed;
+    top: 550px;
+    left: 327px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+.registrationMobile img, .kyc img, .card-issuance img, .cheque-book-issuance img, .block-unblock-cards img, .stop-check-request img,
+.account-opening-kiosk img, .customer-lounge-area img, .tab-kiosk img, .staff-area img, .video-kyc img, .internet-banking-kiosk img{
+    width: 80px;
+    height: 79px;
+    position: fixed;
+    top: 425px;
+    left: 458px;
+}
+.kyc, .customer-lounge-area{
+    left: 774px;
+}
+.kyc p, .customer-lounge-area p{
+    width: 86px;
+    height: 39px;
+    left: 913px;
+}
+.kyc img, .customer-lounge-area img{
+    width: 106px;
+    height: 106px;
+    left: 904px;
+}
+.card-issuance, .tab-kiosk{
+    left: 1232px;
+}
+.card-issuance p, .tab-kiosk p{
+    width: 218px;
+    height: 93px;
+    left: 1304px;
+    font-size: 36px;
+}
+.card-issuance img, .tab-kiosk img{
+    width: 99px;
+    height: 100px;
+    left: 1364px;
+}
+.cheque-book-issuance, .staff-area{
+    top: 721px;
+    left: 324px;
+}
+.cheque-book-issuance p, .staff-area p{
+    width: 271px;
+    height: 105px;
+    top: 906px;
+    left: 361px;
+    font-size: 32px;
+}
+.cheque-book-issuance img, .staff-area img{
+    width: 121px;
+    top: 776px;
+    height: 76px;
+    left: 444px;
+}
+.block-unblock-cards, .video-kyc{
+    top: 733px;
+    left: 768px;
+}
+.block-unblock-cards p{
+    width: 281px;
+    height: 61px;
+    top: 906px;
+    left: 809px;
+    font-size: 32px;
+}
+.block-unblock-cards img, .video-kyc img{
+    width: 103px;
+    height: 85px;
+    top: 773px;
+    left: 905px;
+}
+.stop-check-request, .internet-banking-kiosk{
+    top: 733px;
+    left: 1242px;
+}
+.stop-check-request p, .internet-banking-kiosk p{
+    width: 287px;
+    height: 74px;
+    top: 906px;
+    left: 1280px;
+    font-size: 32px;
+}
+.stop-check-request img, .internet-banking-kiosk img{
+    width: 120px;
+    height: 76px;
+    top: 776px;
+    left: 1364px;
+}
+/* digital assistance  */
+/* self service  */
+.self-service-container{
+    width: 1920px;
+    height: 1200px;
+    background-image: url('./images/bg2.png');
+}
+.account-opening-kiosk img{
+    top: 428px;
+}
+.customer-lounge-area p{
+    width: 248px;
+    left: 832px;
+}
+.tab-kiosk p{
+    font-size: 32px;
+}
+.staff-area img{
+    top: 780px;
+}
+.staff-area p{
+    width: 235px;
+    height: 91px;
+    top: 878px;
+    left: 388px;
+}
+.video-kyc p{
+    width: 281px;
+    height: 94px;
+    top: 882px;
+    left: 809px;
+    font-size: 32px;
+}
+.internet-banking-kiosk img{
+    width: 102px;
+    height: 101px;
+}
+.internet-banking-kiosk p{
+    width: 287px;
+    height: 74px;
+    top: 900px;
+    left: 1280px;
+}
+
+/* form  */
+.form-container{
+    width: 1920px;
+    height: 1200px;
+    background-image: url('./images/bg1.png');
+    /* display: none; */
+}
+.form-container .name-label{
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    top: 317px;
+    left: 284px;
+    font-family: Poppins;
+    color: #828282;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60.48px;
+    text-align: center;
+}
+.form-container .name, .form-container .mobile{
+    width: 1352px;
+    height: 168px;
+    position: absolute;
+    top: 389px;
+    left: 284px;
+    background-color: #F2F2F2;
+    border-radius: 17px;
+    border: 2px solid #FFB600;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 300;
+    color: #4F4F4F;
+    padding-left: 40px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+     margin: 0;
+}
+.name::placeholder, .mobile::placeholder{
+    width: 274px;
+    height: 60px;
+    position: sticky;
+    top: 443px;
+    left: 329px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 300;
+    color: #BDBDBD;
+    line-height: 60.48px;
+    text-align: center;
+}
+.form-container .mobile-label{
+    width: 390px;
+    height: 60px;
+    position: absolute;
+    top: 623px;
+    left: 284px;
+    font-family: Poppins;
+    color: #828282;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60.48px;
+    text-align: center;
+}
+.form-container .mobile{
+    top: 695px;
+}
+.mobile::placeholder{
+    width: 500px;
+    top: 744px;
+}
+.form-container .btn{
+    width: 304px;
+    height: 126px;
+    position: absolute;
+    top: 903px;
+    left: 1332px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(#FFB600, #FF9900);
+    cursor: pointer;
+}
+.form-container .btn p{
+    width: 175px;
+    height: 60px;
+    position: sticky;
+    top: 633px;
+    margin: auto;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60.48px;
+    text-align: center;
+    color: #FFFFFF;
+}

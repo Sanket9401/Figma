@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Home Screen -->
+    <div class="home-container">
+        <p class="hey-temi">
+            SAY <b>"HEY TEMI"</b><br>
+            <span>TO ASK QUESTION </span>
+        </p>
+        <img src="./images/askMe.png" alt="Ask Me">
+        <div class="choose">
+            PLEASE ASK YOUR QUESTION OR CHOOSE FROM BELOW OPTIONS
+        </div>
+        <div class="digital-assistance">
+           <p>DIGITAL ASSISTANCE</p> 
+           <img src="./images/digital.png" alt="Digital Assistance">
+        </div>
+        <div class="self-service">
+            <p>SELF SERVICE</p>
+            <img src="./images/self-service.png" alt="Self Service">
+        </div>
+    </div>
+<!-- Home Screen End -->
+<!-- Digital Assistance Menu Page -->
+     <div class="dig-assist-container hide">
+        <img class="home" id="home" src="./images/home.png" alt="Home">
+        <img class="help" src="./images/help.png" alt="Help">
+        <p class="dig-assist-heading">
+            DIGITAL ASSISTANCE
+        </p>
+        <div class="registrationMobile">
+            <p>Registration <br> Mobile/Net Banking</p>
+            <img src="./images/registration.png" alt="Registration Mobile">
+        </div>
+        <div class="kyc">
+            <p>KYC</p>
+            <img src="./images/kyc.png" alt="KYC">
+        </div>
+        <div class="card-issuance">
+            <p>Card Issuance</p>
+            <img src="./images/cardIssuance.png" alt="Card Issuance">
+        </div>
+        <div class="cheque-book-issuance">
+            <p>Cheque Book Issuance</p>
+            <img src="./images/checkBookIssuance.png" alt="Check Book Issuance">
+        </div>
+         <div class="block-unblock-cards">
+            <p>Block/Unblock <br> Cards</p>
+            <img src="./images/blockUnblockCards.png" alt="Block/Unblock Cards">
+        </div>
+        <div class="stop-check-request">
+            <p>Stop Check Request</p>
+            <img src="./images/stopCheckRequest.png" alt="Stop Check Request">
+        </div> 
+     </div>
+ <!-- Digital Assistance Menu Page End -->
+ <!-- Self Service Menu Page -->
+    <div class="self-service-container hide">
+        <img class="home" id="home" src="./images/home.png" alt="Home">
+        <img class="help" src="./images/help.png" alt="Help">
+        <p class="self-service-heading">
+            SELF SERVICE
+        </p>
+        <div class="account-opening-kiosk">
+            <p>Account Opening<br> Kiosk</p>
+            <img src="./images/accountOpening.png" alt="Account Opening">
+        </div>
+        <div class="customer-lounge-area">
+            <p>Customer<br>Lounge Area</p>
+            <img src="./images/loungeArea.png" alt="Lounge Area">
+        </div>
+        <div class="tab-kiosk">
+            <p>Tab<br>Kiosk</p>
+            <img src="./images/tabTask.png" alt="Tab Task">
+        </div>
+        <div class="staff-area">
+            <p>Staff<br>Area</p>
+            <img src="./images/staffArea.png" alt="Staff Area">
+        </div>
+        <div class="video-kyc">
+            <p>Video<br>-KYC</p>
+            <img src="./images/videoKYC.png" alt="Video-KYC">
+        </div>
+        <div class="internet-banking-kiosk">
+            <p>Internet Banking<br>Kiosk</p>
+            <img src="./images/internetBanking.png" alt="Internet Banking Kiosk">
+        </div>
+    </div>
+ <!-- Self Service Menu Page End -->
+<!-- form  -->
+    <div class="form-container hide"> 
+        <form id="form">   
+            <img class="home" id="home" src="./images/home.png" alt="Home">
+            <img class="help" src="./images/help.png" alt="Help">
+            <label for="name" class="name-label"><p>NAME :</p></label>
+            <input type="text" name="Name" class="name" id="name" placeholder="Enter name" required>
+            <label for="mobile" class="mobile-label"><p>MOBILE NUMBER:</p></label>
+            <input type="number" name="Number" class="mobile" id="mobile" placeholder="Enter mobile number" required>
+            <button type="submit" class="btn" id="btn"><p>SUBMIT</p></button>
+        </form>    
+    </div>    
+<!-- Form End -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
